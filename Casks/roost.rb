@@ -12,7 +12,9 @@ cask "roost" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  # A bare symbol is the minimum, not an exact match; the ">= :sonoma" spelling
+  # that says so out loud is deprecated.
+  depends_on macos: :sonoma
 
   app "Roost.app"
 
