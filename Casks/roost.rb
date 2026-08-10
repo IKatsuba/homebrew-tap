@@ -1,6 +1,6 @@
 cask "roost" do
-  version "0.2.2"
-  sha256 "f7699a2c7274819551182f14b6d49e390aa5a64f73f1469241150c6bc62fb134"
+  version "0.2.3"
+  sha256 "f79ce3dd48ad93f72e73f8d6f389ec74ac07374c952ee3d237164fd28e40ab9f"
 
   url "https://github.com/IKatsuba/roost/releases/download/v#{version}/Roost-#{version}.zip"
   name "Roost"
