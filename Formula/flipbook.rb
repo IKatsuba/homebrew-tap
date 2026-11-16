@@ -1,8 +1,8 @@
 class Flipbook < Formula
   desc "Videos from SwiftUI views, every frame a pure function of its number"
   homepage "https://github.com/IKatsuba/flipbook"
-  url "https://github.com/IKatsuba/flipbook/archive/refs/tags/1.1.0.tar.gz"
-  sha256 "152a706365390cc0c4d288c642cf59cd911c997c180b4594108fb28d1dc9991c"
+  url "https://github.com/IKatsuba/flipbook/archive/refs/tags/1.2.0.tar.gz"
+  sha256 "b9c5291b8ddffb9dbb9c676f9a01cdd7dd9b459a52e5510a3028914034433ab4"
   license "MIT"
   head "https://github.com/IKatsuba/flipbook.git", branch: "main"
 
